@@ -1,0 +1,3 @@
+name: hit-counter
+runtime: nodejs
+description: A simple website that records and displays page views
