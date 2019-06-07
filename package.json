@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "axios": "^0.19.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -31,6 +32,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://kht35jgzbc.execute-api.us-east-1.amazonaws.com/",
-  "homepage": "https://kht35jgzbc.execute-api.us-east-1.amazonaws.com/stage/"
+  "homepage": "https://kht35jgzbc.execute-api.us-east-1.amazonaws.com/dev",
+  "proxy": "https://kht35jgzbc.execute-api.us-east-1.amazonaws.com/"
 }
