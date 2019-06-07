@@ -2,8 +2,6 @@ import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 import * as awsx from "@pulumi/awsx";
 
-const domain = "aydrian.moolumi.io"
-
 // Create an AWS resource (DynamoDB Table)
 const pageViews = new aws.dynamodb.Table('page-views', {
   attributes: [
